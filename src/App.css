@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+:root{
+  --c1 : #02182B;
+  --c2 : #FEDE27;
+  --c3 : #BCE7FD;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.land{
+  padding-top: 5em !important;
+  height: 100vh;
+}
+.logo-navbar{
+  width: 60px;
+}
+nav{
+  background-color: var(--c2);
+}
+.info-side{
+  background-color: var(--c3);
+  height: 95vh;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hello{
+  font-size: 60px;
+  color: var(--c1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.everyone{
+  font-weight: 900;
+}
+
+.my-img{
+  width: 50%;
+  position:fixed;
+  height: auto;
+  z-index: -66;
+}
+
+
+.my-name{
+  font-size: 55px;
+  color: var(--c1);
+}
+
+.my-name span {
+  font-weight: 800;
+}
+.land-row >*{
+  padding: 0 !important;
+}
+
+.job{
+color: var(--c1);
+}
+
+.f-holder{
+  display: flex !important;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.social-bar a{
+  text-decoration: none;
+  padding:0 1em;
+}
+.social-bar a i{
+  color: #02182B;
+  font-size: 6vh;
+  transition: 0.7s;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p-about p{
+  font-size: 25px;
+  line-height: 2.5;
+}
+
+.about{
+  background-color: white;
+}
+
+.heading{
+  font-size: 50px;
+  color: #02182B;
+  font-weight: 700;
 }
