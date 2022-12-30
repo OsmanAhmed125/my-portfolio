@@ -86,8 +86,6 @@ color: var(--c1);
   font-weight: 700;
 }
 
-<<<<<<< HEAD
-=======
 .nav-link:hover{
   color: var(--c1) !important;
   transform: scale(1.1);
@@ -110,4 +108,3 @@ color: var(--c1);
 .about{
   padding-top: 4em !important;
 }
->>>>>>> mo-edit

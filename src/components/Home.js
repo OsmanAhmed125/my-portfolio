@@ -29,14 +29,10 @@ export default function Home(){
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
-            <div className='container-fluid about'>
-                    <div className='row p-3 mt-5'>
-=======
+            
             <br />
             <div className='container-fluid about ' id='about'>
                     <div className='row mt-5'>
->>>>>>> mo-edit
                         <h1 className='heading text-center '>About Me</h1>
                     </div>
 
