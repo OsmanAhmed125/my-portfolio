@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+   .mini-photo{
+    display: block;
+   }
+  .land{
+    height: fit-content;
+  }
+  .info-side{
+    height: 100%;
+  }
+   .img-side{
+    display: none;
+   }
+
+   .my-name{
+    font-size: 56px;
+   }
+
+   .about{
+    padding-top: 0em !important;
+  }
+  }

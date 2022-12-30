@@ -1,21 +1,27 @@
+import miniPhoto from '../imgs/mini-photo.jpg'
 import myimg from '../imgs/personal-pic.jpg'
 import img1 from '../imgs/myabout.jpeg'
 import img2 from '../imgs/staff.jpg'
 export default function Home(){
     return(
         <div>
-            <div className="container-fluid land ">
+            <div className="container-fluid land pb-5 ">
                 <div className="row land-row">
                     <div className="col-sm p-5 info-side" >
+                        <div className='f-holder p-5'>
+                            <img className='mini-photo' src={miniPhoto} />
+                        </div>
                         <h1 className="py-5 text-center hello">Hello <span className="everyone">Everyone</span></h1>
                         <h2 className="py-5 text-center my-name">I am <span>OSMAN AHMED</span></h2>
-                        <h1 className='text-center mt-5 pt-3 job'>FRONT-END Developer <i class="bi bi-code-slash"></i></h1>
+                       <div className='row'>
+                       <h1 className='text-center mt-5 pt-3 job'>FRONT-END Developer <i class="bi bi-code-slash"></i></h1>
                         <div className='f-holder social-bar'>
-                            <a href='#'><i class="bi bi-instagram"></i></a>
-                            <a href='#'><i class="bi bi-twitter"></i></a>
-                            <a href='#'><i class="bi bi-linkedin"></i></a>
-                            <a href='#'><i class="bi bi-github"></i></a>
+                            <a href='#'><i className="bi bi-instagram"></i></a>
+                            <a href='#'><i className="bi bi-twitter"></i></a>
+                            <a href='#'><i className="bi bi-linkedin"></i></a>
+                            <a href='#'><i className="bi bi-github"></i></a>
                         </div>
+                       </div>
                     </div>
                     <div className="col-sm img-side">
                         <img className="my-img" src={myimg} />
@@ -23,9 +29,9 @@ export default function Home(){
                     </div>
                 </div>
             </div>
-
-            <div className='container-fluid about'>
-                    <div className='row p-3 mt-5'>
+            <br />
+            <div className='container-fluid about '>
+                    <div className='row mt-5'>
                         <h1 className='heading text-center '>About Me</h1>
                     </div>
 
