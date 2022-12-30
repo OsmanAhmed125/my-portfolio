@@ -18,6 +18,9 @@ export default function Navbar(){
                 <a className="nav-link" href="#">About</a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="Work.js">Work</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#">Contact</a>
               </li>
             </ul>

@@ -23,7 +23,6 @@ export default function Home(){
                     </div>
                 </div>
             </div>
-
             <div className='container-fluid about'>
                     <div className='row p-3 mt-5'>
                         <h1 className='heading text-center '>About Me</h1>
