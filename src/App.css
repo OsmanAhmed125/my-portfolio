@@ -85,3 +85,13 @@ color: var(--c1);
   color: #02182B;
   font-weight: 700;
 }
+
+.nav-link:hover{
+  color: var(--c1) !important;
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.nav-link{
+  transition: 0.5s;
+}
