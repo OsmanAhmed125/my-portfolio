@@ -19,4 +19,9 @@
    .about{
     padding-top: 0em !important;
   }
+
+  .p-about p{
+    font-size: 18px;
+    line-height: 1.5;
+  }
   }
