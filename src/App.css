@@ -7,7 +7,9 @@
 
 .land{
   padding-top: 5em !important;
-  height: 100vh;
+  height: fit-content;
+  overflow: hidden !important;
+
 }
 .logo-navbar{
   width: 60px;
@@ -17,8 +19,9 @@ nav{
 }
 .info-side{
   background-color: var(--c3);
-  height: 95vh;
+  height: fit-content;
   width: 100%;
+  position: relative;
 }
 
 .hello{
@@ -33,7 +36,7 @@ nav{
 .my-img{
   width: 50%;
   position:fixed;
-  height: auto;
+object-fit:fill;
   z-index: -66;
 }
 
@@ -52,6 +55,7 @@ nav{
 
 .job{
 color: var(--c1);
+
 }
 
 .f-holder{
@@ -60,9 +64,11 @@ color: var(--c1);
   align-items: center;
 }
 
+
 .social-bar a{
   text-decoration: none;
   padding:0 1em;
+ 
 }
 .social-bar a i{
   color: #02182B;
@@ -78,6 +84,7 @@ color: var(--c1);
 
 .about{
   background-color: white;
+  
 }
 
 .heading{

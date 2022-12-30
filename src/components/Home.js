@@ -5,7 +5,7 @@ import img2 from '../imgs/staff.jpg'
 export default function Home(){
     return(
         <div>
-            <div className="container-fluid land pb-5 ">
+            <div className="container-fluid land">
                 <div className="row land-row">
                     <div className="col-sm p-5 info-side" >
                         <div className='f-holder p-5'>
@@ -13,24 +13,24 @@ export default function Home(){
                         </div>
                         <h1 className="py-5 text-center hello">Hello <span className="everyone">Everyone</span></h1>
                         <h2 className="py-5 text-center my-name">I am <span>OSMAN AHMED</span></h2>
-                       <div className='row'>
-                       <h1 className='text-center mt-5 pt-3 job'>FRONT-END Developer <i class="bi bi-code-slash"></i></h1>
+                       
+                       <h1 className='text-center mt-5 pt-3 job '>FRONT-END Developer <i class="bi bi-code-slash"></i></h1>
                         <div className='f-holder social-bar'>
                             <a href='#'><i className="bi bi-instagram"></i></a>
                             <a href='#'><i className="bi bi-twitter"></i></a>
                             <a href='#'><i className="bi bi-linkedin"></i></a>
                             <a href='#'><i className="bi bi-github"></i></a>
-                        </div>
+                        
                        </div>
                     </div>
                     <div className="col-sm img-side">
-                        <img className="my-img" src={myimg} />
+                        <img className="my-img " src={myimg} alt='my photo' />
 
                     </div>
                 </div>
             </div>
             
-            <br />
+            
             <div className='container-fluid about ' id='about'>
                     <div className='row mt-5'>
                         <h1 className='heading text-center '>About Me</h1>
