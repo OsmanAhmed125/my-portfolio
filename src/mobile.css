@@ -25,3 +25,16 @@
     line-height: 1.5;
   }
   }
+
+  @media (max-width: 1080px){
+    .image{
+      flex: 100%;
+      max-width: 480px;
+    }
+  }
+  
+  @media (max-width: 400px){
+    .image .details p{
+      font-size: 16px;
+    }
+  }

@@ -51,37 +51,75 @@ export default function Home(){
 <br/>
 <br/>
 <hr/>
-            <div className = "container my-work">
-                <div className = "card-items">
-                <h1 className = "text-center title-work">MY-WORK</h1>
-            <div class="card">
-        <div class="card-content"> 
-        <h2 class="card-title">dasborad</h2>
-        <p class="card-body"> Welcome to Shirt X, the premier destination for all your clothing needs! Our store offers a wide selection of stylish and comfortable apparel for men, women, and children. Whether you’re looking for a casual t-shirt, a dress shirt for a special occasion, or something in between, we have something for everyone. We also carry a variety of accessories, including hats, scarves, and jewelry.</p>
-        </div>
-        </div>
-        </div>
 
-        <div className = "card-items-two">
-            <div class="card-two">
-        <div class="card-content"> 
-        <h2 class="card-title-two">Shirt-x</h2>
-        <p class="card-body-two"> Welcome to Shirt X, the premier destination for all your clothing needs! Our store offers a wide selection of stylish and comfortable apparel for men, women, and children. Whether you’re looking for a casual t-shirt, a dress shirt for a special occasion, or something in between, we have something for everyone. We also carry a variety of accessories, including hats, scarves, and jewelry.</p>
-        </div>
-        </div>
-        </div>
 
-        <div className = "card-items">
-            <div class="card-three">
-        <div class="card-content-three"> 
-        <h2 class="card-title-three">peter</h2>
-        <p class="card-body-three"> Welcome to Shirt X, the premier destination for all your clothing needs! Our store offers a wide selection of stylish and comfortable apparel for men, women, and children. Whether you’re looking for a casual t-shirt, a dress shirt for a special occasion, or something in between, we have something for everyone. We also carry a variety of accessories, including hats, scarves, and jewelry.</p>
-        </div>
-        </div>
-        </div>
-</div>
 
-                    </div>
+
+   
+    <div class="container card-img">
+      
+      <div class="row img-card ">
+       
+        <div class="image">
+          <img src={pic1} alt=""/>
+          <div class="details">
+            <h2>SHIRT <span>-X</span></h2>
+            <p> Welcome to Shirt X! For the latest in fashion trends, look no further. Whether it's a trip to the office or a night out on the town, Shirt X has the perfect shirt for you. Our selection of mens and womens shirts are stylish and comfortable, so you'll always make a great impression. We also carry stylish accessories, such as belts and hats, that will tie your outfit together. Looking for something special? We can customize any shirt just for you. So what are you waiting for? Stop by Shirt X today and check out our latest styles!.</p>
+            <div class="more">
+              
+              <div class="icon-links">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-eye"></i></a>
+                <a href="#"><i class="fas fa-paperclip"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!--image card end--> */}
+        {/* <!--image card start--> */}
+        <div class="image">
+          <img src={pic2} alt=""/>
+          <div class="details">
+            <h2>Your <span>Title</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="more">
+              
+              <div class="icon-links">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-eye"></i></a>
+                <a href="#"><i class="fas fa-paperclip"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!--image card end-->
+        <!--image card start--> */}
+        <div class="image">
+          <img src={pic3} alt=""/>
+          <div class="details">
+            <h2>Your <span>Title</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="more">
+              
+              <div class="icon-links">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-eye"></i></a>
+                <a href="#"><i class="fas fa-paperclip"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!--image card end--> */}
+      </div>
+      
+        {/* <!--image card end--> */}
+      </div>
+      {/* <!--image row end--> */}
+    
+  
+      
+
+                </div>
             
     )
 }
