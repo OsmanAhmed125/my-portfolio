@@ -58,7 +58,7 @@ export default function Home(){
    
     <div class="container card-img">
       
-      <div class="row img-card ">
+      <div class=" img-card ">
        
         <div class="image">
           <img src={pic1} alt=""/>
@@ -88,7 +88,15 @@ export default function Home(){
         </div>
         {/* <!--image card end--> */}
          </div>
-      
+      <div className='work-c'>
+        <div className='work-holder'>
+        </div>
+        <div className='work-info p-3'>
+            <h3 className='text-center work-title'>My Project</h3>
+            <p className='text-center work-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </p>
+            <button className='btn  view-btn'>View</button>
+          </div>
+      </div>
    
       </div>
     

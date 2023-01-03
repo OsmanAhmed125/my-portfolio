@@ -252,7 +252,54 @@ font-size: 10px;
   height: 100%;
 }
 
+.work-c{
+  width: 33vh;
+  height: 33vh;
+  position: relative;
+  border: 2px solid  var(--c1);
+  overflow: hidden !important;
+}
+
+.work-holder{
+  width: 100%;
+  height: 100%;
+  background-image: url(./imgs/my-work1.png);
+  background-size: cover;
+  transition: 0.4s;
+  z-index: -1;
+ 
+}
+
+.work-info{
+  background-color: rgba(0, 0, 0, 0.582);
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  top: 0;
+  transition: 0.6s;
+}
+
+.work-title{
+  color: white;
+  font-weight: 500;
 
 
+}
+.work-text{
+  color: white;
+  line-height: 2;
+  font-size: 12px;
+}
 
-      
+.work-c:hover > .work-info{
+  opacity: 1 !important;
+}
+.work-c:hover > .work-holder{
+  transform: scale(1.2);
+  filter: blur(5px);
+}
+
+.view-btn{
+  background-color: #02182B;
+  color: var(--c3);
+}
