@@ -65,31 +65,15 @@ export default function Home(){
           <div class="details">
             <h2>SHIRT <span>-X</span></h2>
             <p> Welcome to Shirt X! For the latest in fashion trends, look no further. Whether it's a trip to the office or a night out on the town, Shirt X has the perfect shirt for you. Our selection of mens and womens shirts are stylish and comfortable, so you'll always make a great impression. We also carry stylish accessories, such as belts and hats, that will tie your outfit together. Looking for something special? We can customize any shirt just for you. So what are you waiting for? Stop by Shirt X today and check out our latest styles!.</p>
-            <div class="more">
-              
-              <div class="icon-links">
-                <a href="#"><i class="fas fa-heart"></i></a>
-                <a href="#"><i class="fas fa-eye"></i></a>
-                <a href="#"><i class="fas fa-paperclip"></i></a>
-              </div>
-            </div>
+          
           </div>
         </div>
-        {/* <!--image card end--> */}
-        {/* <!--image card start--> */}
+       
         <div class="image">
           <img src={pic2} alt=""/>
           <div class="details">
-            <h2>Your <span>Title</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="more">
-              
-              <div class="icon-links">
-                <a href="#"><i class="fas fa-heart"></i></a>
-                <a href="#"><i class="fas fa-eye"></i></a>
-                <a href="#"><i class="fas fa-paperclip"></i></a>
-              </div>
-            </div>
+            <h2> Peter</h2>
+            <p>Hi, I'm Peter! Welcome to my virtual personal website. Here I share my ideas, experiences, and passions. I love talking about everything from outdoor activities to the latest technology. Feel free to explore and let me know what you think. Thanks for stopping by!</p>
           </div>
         </div>
         {/* <!--image card end-->
@@ -97,24 +81,16 @@ export default function Home(){
         <div class="image">
           <img src={pic3} alt=""/>
           <div class="details">
-            <h2>Your <span>Title</span></h2>
+            <h2>dasborad </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="more">
-              
-              <div class="icon-links">
-                <a href="#"><i class="fas fa-heart"></i></a>
-                <a href="#"><i class="fas fa-eye"></i></a>
-                <a href="#"><i class="fas fa-paperclip"></i></a>
-              </div>
-            </div>
+            
           </div>
         </div>
         {/* <!--image card end--> */}
-      </div>
+         </div>
       
-        {/* <!--image card end--> */}
+   
       </div>
-      {/* <!--image row end--> */}
     
   
       
