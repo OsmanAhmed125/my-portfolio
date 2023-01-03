@@ -1,13 +1,16 @@
+import { useState } from 'react'
 import logo from '../imgs/logo.jpg'
 export default function Navbar(){
-    return (
+  const [isOpen , setIsopen]= useState(false)  
+  const tggle = ()=>setIsopen(!isOpen)
+  return (
         <nav className="navbar navbar-expand-sm navbar-light fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img className="logo-navbar" src={logo} />
           </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span className="navbar-toggler-icon"></span>
+          <button onClick={tggle} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+           {isOpen ? <i class="bi bi-escape"></i>: <span className="navbar-toggler-icon"></span>}
           </button>
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav">
