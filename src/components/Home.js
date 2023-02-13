@@ -56,38 +56,12 @@ export default function Home(){
 
 
    
-    <div class="container card-img">
-      
-      <div class=" img-card ">
-       
-        <div class="image">
-          <img src={pic1} alt=""/>
-          <div class="details">
-            <h2>SHIRT <span>-X</span></h2>
-            <p> Welcome to Shirt X! For the latest in fashion trends, look no further. Whether it's a trip to the office or a night out on the town, Shirt X has the perfect shirt for you. Our selection of mens and womens shirts are stylish and comfortable, so you'll always make a great impression. We also carry stylish accessories, such as belts and hats, that will tie your outfit together. Looking for something special? We can customize any shirt just for you. So what are you waiting for? Stop by Shirt X today and check out our latest styles!.</p>
-          
-          </div>
-        </div>
-       
-        <div class="image">
-          <img src={pic2} alt=""/>
-          <div class="details">
-            <h2> Peter</h2>
-            <p>Hi, I'm Peter! Welcome to my virtual personal website. Here I share my ideas, experiences, and passions. I love talking about everything from outdoor activities to the latest technology. Feel free to explore and let me know what you think. Thanks for stopping by!</p>
-          </div>
-        </div>
-        {/* <!--image card end-->
-        <!--image card start--> */}
-        <div class="image">
-          <img src={pic3} alt=""/>
-          <div class="details">
-            <h2>dasborad </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            
-          </div>
-        </div>
-        {/* <!--image card end--> */}
-         </div>
+    <div class="container-fluid my-works">
+
+      <h1 className='text-center'>My Work</h1>
+     
+     <div className='rwo p-3'>
+      <div className='col-sm'>
       <div className='work-c'>
         <div className='work-holder'>
         </div>
@@ -97,6 +71,21 @@ export default function Home(){
             <button className='btn  view-btn'>View</button>
           </div>
       </div>
+      </div>
+      <div className='col-sm'>
+
+      </div>
+      <div className='col-sm'>
+
+      </div>
+      <div className='col-sm'>
+        
+      </div>
+      <div className='col-sm'>
+        
+        </div>
+     </div>
+
    
       </div>
     
