@@ -239,10 +239,11 @@ zoom: 1.2;
   color: black;
 }
 
-.image:hover .details p{
+.image:hover >.details p{
 	opacity: 1;
 	transform: translateY(-40px);
   font-size: 15px;
+  
   
 }
 
@@ -302,4 +303,6 @@ font-size: 10px;
 .view-btn{
   background-color: #02182B;
   color: var(--c3);
-}
+}   
+
+
