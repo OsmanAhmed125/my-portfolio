@@ -4,7 +4,6 @@ import img1 from '../imgs/myabout.jpeg'
 import img2 from '../imgs/staff.jpg'
 import pic1 from '../imgs/my-work1.png'
 import pic2 from '../imgs/peter.png'
-import pic3 from '../imgs/dasborad.png'
 
 export default function Home(){
     return(
@@ -52,116 +51,6 @@ export default function Home(){
 <br/>
 <hr/>
 
-
-
-
-   
-    <div class="container card-img">
-      
-      <div class=" img-card ">
-       
-        <div class="image">
-          <img src={pic1} alt=""/>
-          <div class="details">
-            <h2>SHIRT <span>-X</span></h2>
-            <p> Welcome to Shirt X! For the latest in fashion trends, look no further. Whether it's a trip to the office or a night out on the town, Shirt X has the perfect shirt for you. Our selection of mens and womens shirts are stylish and comfortable, so you'll always make a great impression. We also carry stylish accessories, such as belts and hats, that will tie your outfit together. Looking for something special? We can customize any shirt just for you. So what are you waiting for? Stop by Shirt X today and check out our latest styles!.</p>
-          
-          </div>
-        </div>
-       
-        <div class="image">
-          <img src={pic2} alt=""/>
-          <div class="details">
-            <h2> Peter</h2>
-            <p>Hi, I'm Peter! Welcome to my virtual personal website. Here I share my ideas, experiences, and passions. I love talking about everything from outdoor activities to the latest technology. Feel free to explore and let me know what you think. Thanks for stopping by!</p>
-          </div>
-        </div>
-        {/* <!--image card end-->
-        <!--image card start--> */}
-        <div class="image">
-          <img src={pic3} alt=""/>
-          <div class="details">
-            <h2>dasborad </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            
-          </div>
-        </div>
-        {/* <!--image card end--> */}
-         </div>
-      <div className='work-c'>
-        <div className='work-holder'>
-        </div>
-        <div className='work-info p-3'>
-            <h3 className='text-center work-title'>My Project</h3>
-            <p className='text-center work-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </p>
-            <button className='btn  view-btn'>View</button>
-          </div>
-      </div>
-   
-      </div>
-    
-      
-<div className='mb-4'>
-   <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
-
-    <div class="row">
-
-        
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" method="POST">
-                <div class="row">
-
-                          <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <label for="name" class="">Your name</label>
-                            <input type="text" id="name" name="name" class="form-control"/>
-                        </div>
-                    </div>
-       
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control"/>
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                   
-
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control"/>
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row">
-
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
-            <div class="status"></div>
-        </div>
-       
-    </div>
-
 </div>
-
-                </div>
     )
 }
