@@ -2,8 +2,7 @@ import miniPhoto from '../imgs/mini-photo.jpg'
 import myimg from '../imgs/personal-pic.jpg'
 import img1 from '../imgs/myabout.jpeg'
 import img2 from '../imgs/staff.jpg'
-import pic1 from '../imgs/my-work1.png'
-import pic2 from '../imgs/peter.png'
+
 
 export default function Home(){
     return(

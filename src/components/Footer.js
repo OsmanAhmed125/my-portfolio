@@ -32,6 +32,9 @@ export default function Footer(){
 
   </div>
 
+  <h4 className="text-center text-white mt-5">Copyright © 2023 osman.ahmed.com™. All rights reserved.
+</h4>
+
 
 
   
