@@ -161,9 +161,7 @@ zoom: 1.2;
 
 
 .card-img{
-	margin: 80px;
-  display: flex;
-  justify-content: space-between;
+	margin: 80px
 }
 /* 
 .img-card{
@@ -352,21 +350,21 @@ font-size: 10px;
 
 .htmlBar {
   width: 70%;
-  animation: html 3s 1s 5 forwards;
+  animation: html 5s 2s 5 forwards;
 }
 .cssBar {
   width: 70%;
-  animation: css 3s 1s 5 forwards;
+  animation: css 5s 2s 5 forwards;
   font-size: 100px !important;
 }
 .jsBar {
   width: 75%;
-  animation: js 3s 1s 5 forwards;
+  animation: js 5s 2s 5 forwards;
 }
 
 .reactBar {
   width: 10%;
-  animation: react 3s 1s 5 forwards;
+  animation: react 5s 2s 5 forwards;
 }
 
 @keyframes html {
@@ -400,4 +398,7 @@ font-size: 10px;
   100% {
     width: 70%;
   }
+}
+footer{
+  background-color: var(--c1);
 }

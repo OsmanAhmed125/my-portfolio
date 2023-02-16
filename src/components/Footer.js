@@ -2,44 +2,38 @@
 export default function Footer(){
     return(
         <div>
-            <footer className="bg-dark text-center text-white">
+            <footer className=" text-center text-white">
+            <h1 className="footer-title text-center">Contact Me on</h1>
   
   <div className="container p-4 pb-0">
   
-    <section className="mb-4">
+    
     <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-        <i className="bx bxl-facebook-square"></i>
+        <i className="bi bi-twitter"></i>
       </a>
 
    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-        <i className="BsTwitter"></i>
+        <i className="bi bi-facebook"></i>
       </a>
 
-  <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-        <i className="fab fa-google"></i>
-      </a>
 
      <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-        <i className="fab fa-instagram"></i>
+        <i className="bi bi-instagram"></i>
       </a>
 
     <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-        <i className="fab fa-linkedin-in"></i>
+        <i className="bi bi-telegram"></i>
       </a>
 
-  <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-        <i className="AiFillGithub">github</i>
+  <a className="btn btn-outline-light  m-1" href="#!" role="button">
+        <i className="bi bi-github"></i>
       </a>
-    </section>
+    
 
   </div>
 
 
 
-  <div className="text-center p-3" >
-    © 2020 Copyright:
-    <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
   
 </footer>
                  </div>

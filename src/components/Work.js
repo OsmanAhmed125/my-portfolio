@@ -3,7 +3,8 @@ return(
     <div>
 <h1 className='title-work text-center'>My Work</h1>
 <div className="container fluid card-img">
-<div className='col-sm'>
+    <div className="row">
+<div className='col-sm p-3'>
 <div className='work-c'>
  <div className='dapsbord-holder'>
  </div>
@@ -15,7 +16,7 @@ return(
 </div>
 </div>
 
-<div className='col-sm'>
+<div className='col-sm p-3'>
 <div className='work-c'>
  <div className='peter-holder'>
  </div>
@@ -27,7 +28,7 @@ return(
 </div>
 </div>
 
-<div className='col-sm'>
+<div className='col-sm p-3'>
 <div className='work-c'>
  <div className='work-holder'>
  </div>
@@ -39,8 +40,8 @@ return(
 </div>
 </div>
 
-<div className='col-sm'>
-<div className='work-c'>
+<div className='col-sm p-3'>
+<div className='work-c '>
  <div className='work-holder'>
  </div>   
  <div className='work-info p-3'>
@@ -50,7 +51,7 @@ return(
    </div>
 </div>  
 </div>
-
+</div>
 
 </div>
 </div>
