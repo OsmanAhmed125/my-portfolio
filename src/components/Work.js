@@ -2,7 +2,7 @@ import { works } from "../data/works";
 
 export default function Work(){
 return(
-    <div>
+    <div id="work">
 <h1 className='title-work text-center'>My Work</h1>
 <div className="container fluid card-img">
     <div className="row">
@@ -10,8 +10,8 @@ return(
 
         {works.map((work, index)=>(
                             
-                  <div key={index} className="col-sm f-holder p-3">
-                  <div class="cardw" >
+                  <div key={index} className="col-sm f-holder p-3" >
+                  <div class="cardw" data-aos= 'fade-in-up' data-aos-delay='700'>
                         <div class="content">
                             <div class="front" >
                                 <h3 class="title">{work.name}</h3>
