@@ -41,8 +41,7 @@ nav{
   position:absolute;
 object-fit:fill;
   z-index: -66;
-
-  filter: brightness(0.5) ;
+ ;
 }
 
 

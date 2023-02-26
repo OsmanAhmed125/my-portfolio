@@ -1,5 +1,5 @@
 import miniPhoto from '../imgs/profile-pic.png'
-import myimg from '../imgs/personal-pic.jpg'
+import myimg from '../imgs/landme.jpg'
 import img1 from '../imgs/myabout.jpeg'
 import img2 from '../imgs/staff.jpg'
 
