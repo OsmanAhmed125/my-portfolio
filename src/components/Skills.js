@@ -2,8 +2,8 @@ export default function Skills(){
 return (
     <div>
         <hr />
-      <h1 className="text-center skl">MY SKILLS :</h1>
-<div className="skills">
+      <h1 className="text-center skl" data-aos='flip-right' data-aos-delay='750'>MY SKILLS :</h1>
+<div className="skills" data-aos='zoom-out-right' data-aos-duration='1200'>
       <p className="skl sklLine">_________</p>
       <div className="htmlProg ProgWidth">
         <div className="p">

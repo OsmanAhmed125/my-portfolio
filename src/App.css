@@ -41,6 +41,7 @@ nav{
   position:absolute;
 object-fit:fill;
   z-index: -66;
+ ;
 }
 
 
@@ -160,7 +161,7 @@ zoom: 1.2;
 
 
 
-.card-img{
+.cardw-img{
 	margin: 80px
 }
 /* 
@@ -244,33 +245,9 @@ font-size: 10px;
   overflow: hidden !important;
 }
 
-.work-holder{
-  width: 100%;
-  height: 100%;
-  background-image: url(./imgs/my-work1.png);
-  background-size: cover;
-  transition: 0.8s;
-  z-index: -1;
- 
-}
 
-.dapsbord-holder{
-  width: 100%;
-  height: 100%;
-  background-image: url(./imgs/dasborad.png);
-  background-size: cover;
-  transition: 10s;
-  z-index: -1;
-}
 
-.peter-holder{
-  width: 100%;
-  height: 100%;
-  background-image: url(./imgs/peter.png);
-  background-size: cover;
-  transition: 10s;
-  z-index: -1 !important;
-}
+
 .work-info{
   background-color: rgba(0, 0, 0, 0.582);
   position: absolute;
@@ -402,3 +379,58 @@ font-size: 10px;
 footer{
   background-color: var(--c1);
 }
+
+
+.cardw {
+  width: 12rem;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background-color: rgb(127, 204, 240);
+  padding: 5em;
+  transform-style: preserve-3d;
+}
+
+.cardw:hover .content {
+  transform: rotateY(0.5turn);
+}
+
+.front,
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2em;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.title {
+  transform: translateZ(5rem);
+  font-size: 2rem;
+}
+
+.subtitle {
+  transform: translateZ(2rem);
+}
+
+.back {
+  transform: rotateY(0.5turn);
+  background-color: var(--c2);
+
+}
+
+.link-w {
+  transform: translateZ(3rem);
+  color: #02182B;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
